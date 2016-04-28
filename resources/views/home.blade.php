@@ -1,17 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+    @if (count($articles) > 0)
+        @foreach ($articles as $article)
             <div class="panel panel-default">
-                <div class="panel-heading">Articles</div>
-
                 <div class="panel-body">
-                    bla bla
+                    <h3>{{ $article->title }}</h3>
+                    <p>{{ $article->content }}</p>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
+        @endforeach
+    @endif
 @endsection

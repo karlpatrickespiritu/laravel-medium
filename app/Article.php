@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Articles extends Model
+class Article extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -17,11 +17,11 @@ class Articles extends Model
 
     public function user()
     {
-        $this->belongsTo('App\User');
+        return $this->belongsTo('App\User');
     }
 
     public function category()
     {
-        $this->hasOne('App\Category');
+        return $this->hasOne('App\Category');
     }
 }
