@@ -67,8 +67,8 @@
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                            <div class="col-md-6 col-md-offset-4 text-center">
+                                <button type="submit" class="btn btn-primary btn-block">
                                     <i class="fa fa-btn fa-user"></i>Register
                                 </button>
                             </div>

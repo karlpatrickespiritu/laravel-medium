@@ -18,7 +18,7 @@ class HomeController extends Controller
 
     public function index(Request $request)
     {
-        return view('home', [
+        return view('pages.home.index', [
             'articles' => Article::paginate(10)
         ]);
     }

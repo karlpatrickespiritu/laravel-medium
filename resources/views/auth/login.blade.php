@@ -49,12 +49,16 @@
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                            <div class="col-md-6 col-md-offset-4 text-center">
+                                <button type="submit" class="btn btn-primary btn-block">
                                     <i class="fa fa-btn fa-sign-in"></i>Login
                                 </button>
-
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
+                                <p>
+                                    <br>
+                                    <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
+                                    <br>
+                                    <a class="btn btn-link" href="{{ url('/register') }}">Register</a>
+                                </p>
                             </div>
                         </div>
                     </form>
