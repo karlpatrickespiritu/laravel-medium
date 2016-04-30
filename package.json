@@ -8,5 +8,25 @@
     "gulp": "^3.9.1",
     "laravel-elixir": "^5.0.0",
     "bootstrap-sass": "^3.0.0"
+  },
+  "name": "laravel-medium",
+  "description": "A mini medium-like site built with laravel",
+  "version": "0.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpatrickespiritu/laravel-medium.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpatrickespiritu/laravel-medium/issues"
+  },
+  "homepage": "https://github.com/karlpatrickespiritu/laravel-medium#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
   }
 }
